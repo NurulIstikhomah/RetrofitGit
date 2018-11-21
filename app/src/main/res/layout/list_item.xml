@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvTanggalBeli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Pembelian"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvIdPembelian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Pembelian"
+            android:layout_below="@id/tvTanggalBeli"
+            />
+        <TextView
+            android:id="@+id/tvIdPembeli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Pembeli"
+            android:layout_below="@id/tvIdPembelian"
+            />
+        <TextView
+            android:id="@+id/tvTotalHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Total Harga"
+            android:layout_below="@id/tvIdPembeli"
+            />
+        <TextView
+            android:id="@+id/tvIdTiket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Tiket"
+            android:layout_below="@id/tvTotalHarga"
+            />
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+</LinearLayout>
